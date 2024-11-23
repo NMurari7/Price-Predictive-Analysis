@@ -1,37 +1,64 @@
-## Used Bike Price Prediction
-This is a used bike price prediction project built using Python, Pandas, Scikit-learn and Streamlit. It predicts the price of a bike based on the bike model, kms driven, and year of manufacturing. The dataset used in this project is scraped from droom.in.
+# 🚴‍♂️ Used Bike Price Prediction 💸
 
-## ScreenShots
-<img width="317" alt="fudpp" src="https://user-images.githubusercontent.com/70143030/236791600-97e5b184-9161-46b3-879d-bc8c351feaa8.png">
+## 📖 Overview
+This project is a **Used Bike Price Prediction Application** built using **Python**, **Pandas**, **Scikit-learn**, and **Streamlit**.  
+It predicts the price of a bike based on:
+- **Model**
+- **Kilometers Driven**
+- **Year of Manufacturing**
+
+The dataset is sourced from **droom.in**, providing real-world data for precise predictions.
+
+---
+
+## 🌟 Features
+- **Simple and Intuitive Interface**: Enter bike details to get instant price predictions.
+- **Data-Driven Insights**: Leverages real-world data for accurate forecasting.
+- **Interactive Web Application**: Built with **Streamlit** for seamless interaction.
+- **Customizable Model**: Easily retrain the model with updated datasets.
+
+---
+
+## 🎥 Live Demo
+📽️ **Watch the Demo**: 
+[YouTube Video](https://youtu.be/S0sqzvakrpk)  
+🎥 **App Demonstration**: [GitHub Asset](https://github.com/NMurari7/Used_Bikes_Price_Prediction/assets/70143030/6379194c-932a-4341-9a2d-b60cb7d038c1)
+
+---
+
+## 📸 Screenshots
+Here’s a glimpse of the app in action:  
+![App Screenshot](https://user-images.githubusercontent.com/70143030/236791600-97e5b184-9161-46b3-879d-bc8c351feaa8.png)
+
+---
+# Used Bikes Price Prediction
+
+This project predicts the price of used bikes based on various factors. It utilizes machine learning models trained on a dataset of used bikes.
+
+##  Usage
+
+### Clone the Repository
+
+1. Open your terminal.
+2. Run the following command to clone the repository from GitHub:
+
+```bash
+git clone https://github.com/NMurari7/Used_Bikes_Price_Prediction.git
+```
 
 
-## Demo Video
-https://youtu.be/S0sqzvakrpk
+Navigate to the folder
+```bash
+cd Used_Bikes_Price_Prediction
+```
 
-https://github.com/NMurari7/Used_Bikes_Price_Prediction/assets/70143030/6379194c-932a-4341-9a2d-b60cb7d038c1
-
-
-
-
-## Installation
-To install the required packages, run the following command:
-
+Install the Required packages
+```bash
 pip install pandas scikit-learn streamlit
+```
 
-
-## Dataset
-The dataset used in this project is scraped from droom.in. It contains information about used bikes, including their models, year of manufacturing, kms driven, and other details. The dataset is preprocessed before training the model.
-
-## Usage
-To run the application, simply run the following command in your terminal:
-
+Run the application
+```
 streamlit run app.py
+```
 
-This will start the application and open it in your default web browser. From there, you can enter the details of the bike such as model, kms driven, and year of manufacturing and the app will predict the price of the bike.
-
-## Development
-This application was developed using Python, Pandas, Scikit-learn and Streamlit. The code is organized into several files:
-
-To run app.py 
-open terminal and type
-streamlit run app.py 
