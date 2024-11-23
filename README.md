@@ -1,6 +1,3 @@
-# Price-Predictive-Analysis
-
-
 ## Used Bike Price Prediction
 This is a used bike price prediction project built using Python, Pandas, Scikit-learn and Streamlit. It predicts the price of a bike based on the bike model, kms driven, and year of manufacturing. The dataset used in this project is scraped from droom.in.
 
@@ -38,4 +35,3 @@ This application was developed using Python, Pandas, Scikit-learn and Streamlit.
 To run app.py 
 open terminal and type
 streamlit run app.py 
-
